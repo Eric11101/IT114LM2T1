@@ -13,5 +13,25 @@ namespace Module1Exercise1
         {
 
         }
+
+        protected void txtstate_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void txtstate_TextChanged1(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void TextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

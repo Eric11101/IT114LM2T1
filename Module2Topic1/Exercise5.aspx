@@ -12,3 +12,28 @@
 <%-- * How would you compare plain HTML to ASP.NET WebForms --%>
 <%-- * The code behind (C#) and JavaScript seem to share many use cases. When should you implement logic in the code behind and when should you implement logic in JavaScript? Provide examples. --%>
 <%-- * Explain what post backs are. --%>
+
+<asp:Content ID="ReflectionContent" ContentPlaceHolderID="MasterContent" runat="server">
+
+    <div id="main-frame">
+        <iframe id="main-display" src=""></iframe>
+    </div>
+
+    <div>
+        <h1 id="title">REFLECTION</h1>
+
+        <h3 class="header">How would you compare plain HTML to ASP.NET WebForms</h3> 
+        <p class="body"> HTML offers static content rendering on the client side and relies on client-side JavaScript for interactivity, ASP.NET WebForms employs a dynamic, 
+            server-side approach with an event-driven programming model, facilitating easier handling of complex interactions and providing built-in state management mechanisms. 
+            ASP.NET WebForms also has a toolbox which you can drag and drop things like buttons or checkbox. The creation of dynamic web applications with rich user interfaces is 
+            more efficient  in ASP.NET compared to plain HTML, which is better suited for simpler, static content websites.</p>
+
+        <h3 class="header">The code behind (C#) and JavaScript seem to share many use cases. When should you implement logic in the code behind and when should you implement logic in JavaScript? Provide examples.</h3>
+        <p class="body">Code-behind tackles server interactions, complex calculations, and security, like validating logins on the server. JavaScript shines in client-side tasks like 
+            user interface updates, quick calculations, and ideal for providing immediate feedback to users.</p>
+
+        <h3 class="header">Explain what post backs are.</h3>
+        <p class="body">A postback refers to the process where a web page is posted back to the server for processing. When a user interacts with a web form by 
+            clicking a button or submitting a form, the form data is sent to the server for processing. This allows for dynamic updates like search results without full reloads, 
+            triggers server-side events based on user actions, and even helps manage information between page loads.</p>
+    </div>
